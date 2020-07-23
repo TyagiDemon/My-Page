@@ -1,0 +1,19 @@
+body{
+	margin: 1%;
+	padding: 0 1% 1% 1%;
+	font-size: 125%;
+}
+header>img{
+	width: 20%;
+	display: inline-block;
+	float: right;
+	padding: 2%;
+}
+header{
+	display: block;
+	height: 500px;
+	background-color: grey;
+}
+h1{
+	padding: 2%;
+}
