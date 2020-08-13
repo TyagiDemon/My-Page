@@ -1,19 +1,39 @@
 body{
-	margin: 1%;
-	padding: 0 1% 1% 1%;
-	font-size: 125%;
-}
-header>img{
-	width: 20%;
-	display: inline-block;
-	float: right;
-	padding: 2%;
-}
-header{
-	display: block;
-	height: 500px;
-	background-color: grey;
+	text-align: justify;
 }
 h1{
-	padding: 2%;
+	font-variant-caps: small-caps;
+}
+nav a i{
+	color: #325d88;
+	margin-left:1%;
+}
+details p{
+	background-color: #d7d7d7;
+	padding: 1%;
+	border-radius: 5px;
+}
+/*#achievements{
+	background: url(../imgs/achievements.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#courses{
+	color: white;
+	background: url(../imgs/courses.jpg);
+	background-size: cover;
+	background-position: top left;
+}*/
+#courses a{
+	color: yellow;
+	transition-property: background-color padding margin border-radius;
+	transition-delay: .2s;
+	transition-duration: .5s;
+}
+#courses a:hover{
+	color: blue;
+	background-color: white;
+	padding: 1%;
+	margin: 1%;
+	border-radius: 5px;
 }
